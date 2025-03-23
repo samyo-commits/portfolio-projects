@@ -1,0 +1,138 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+.header {
+    background: #2c3e50;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.nav-bar {
+    text-align: center;
+    background: #34495e;
+    padding: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Content Styling */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    color: #2c3e50;
+}
+h5{
+    color:green;
+
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Table Styling */
+.table-container {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.currency-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.currency-table th, .currency-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.currency-table th {
+    background: #2c3e50;
+    color: green;
+}
+
+.currency-table tr:nth-child(even) {
+    background:#f2f2f2;
+}
+
+/* Footer Styling */
+footer {
+    background: #2c3e50;
+    color: yellow;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 25%;
+}
+
+.footer-section h4, .footer-section h3 {
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 10px 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: darkred;
+    font-size: 20px;
+}

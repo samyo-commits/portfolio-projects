@@ -1,0 +1,5 @@
+/* Ensure all text inside #warning is red */
+#warning, 
+#warning * {
+    color: red !important;
+}

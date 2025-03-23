@@ -1,0 +1,123 @@
+/* Reset some default styles for better consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and navigation bar styles */
+header {
+    background-color: #007bff;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content area */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Article styling */
+article h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+article h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    color: #007bff;
+}
+
+article h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #333;
+}
+
+article h4 {
+    font-size: 18px;
+    margin-top: 15px;
+    color: #333;
+}
+
+article p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* Styling for unordered lists */
+article ul {
+    margin-left: 20px;
+    list-style-type: square;
+}
+
+article ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #007bff;
+    color: #fff;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    article h1, article h2, article h3 {
+        font-size: 20px;
+    }
+
+    article p {
+        font-size: 14px;
+    }
+}
+
