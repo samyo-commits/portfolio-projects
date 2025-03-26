@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulting Firm</title>
+    <link rel="stylesheet" href="business.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Elite Consulting</h1>
+            <p>Expert Business Solutions</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="container">
+        <h2>Welcome to Elite Consulting</h2>
+        <p>Your trusted partner in business growth and strategy.</p>
+    </section>
+
+    <section id="services" class="container">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Business Strategy & Planning</li>
+            <li>Financial Advisory</li>
+            <li>Marketing & Branding</li>
+            <li>IT Consulting</li>
+        </ul>
+    </section>
+    <section id="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial-container">
+        <div class="testimonial-slide">
+            <p>"This company transformed our business. Highly recommended!"</p>
+            <h4>- John Doe, CEO of XYZ Corp</h4>
+        </div>
+        <div class="testimonial-slide">
+            <p>"Exceptional service and outstanding results. Five stars!"</p>
+            <h4>- Jane Smith, Marketing Director</h4>
+        </div>
+        <div class="testimonial-slide">
+            <p>"Professional and reliable. Will definitely work with them again."</p>
+            <h4>- Michael Lee, Business Owner</h4>
+        </div>
+    </div>
+</section>
+
+
+    <section id="about" class="container">
+        <h2>About Us</h2>
+        <p>We are a team of experienced consultants helping businesses grow through strategic solutions.</p>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Us</h2>
+      
+    <form action="contact.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+
+
+  <footer><footer>
+    <div class="footer-contact">Ahereza Samuel am at your service dont hesitate to contact incase you need help.
+        <a href="tel:+256787248655">
+            <i class="fa fa-phone"></i> +256787248655 for both calls and watsup
+        </a>
+        <a href="https://wa.me/+256773861005" target="_blank">
+            <i class="fa fa-whatsapp"></i>+256773861005 Chat on WhatsApp
+        </a>
+    </div>
+</footer>
+
+        <p>&copy; 2025 Ahereza Samuel. All Rights Reserved.</p>
+    </footer>
+ <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        let slides = document.querySelectorAll(".testimonial-slide");
+        let index = 0;
+
+        function showSlide() {
+            slides.forEach(slide => slide.style.display = "none");
+            slides[index].style.display = "block";
+            index = (index + 1) % slides.length;
+        }
+
+        showSlide(); // Show first slide
+        setInterval(showSlide, 3000); // Change slide every 3 seconds
+    });
+</script>
+
+
+
+
+
+</body>
+</html>
