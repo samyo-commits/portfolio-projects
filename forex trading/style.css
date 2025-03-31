@@ -363,6 +363,7 @@ h1 {
 /* Table Styling */
 .currency-table {
     width: 100%;
+    max-width: 500px;
     border-collapse: collapse;
     margin-top: 20px;
 }
@@ -436,7 +437,8 @@ button:hover {
 
 
         .site-header img {
-    width: 150px;
+    width: 100%;
+    max-width: 500px;
     height: auto;
     transition: opacity 0.3s ease-in-out;
 }
@@ -569,4 +571,45 @@ button:hover {
         display: block;
         cursor: pointer;
     }
+}
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.container, .content {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.brokers-table {
+    width: 100%;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+ 
+img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+@media (max-width: 768px) {
+    .nav-bar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        display: none;
+        width: 100%;
+    }
+
+    .nav-links.active {
+        display: block;
+    }
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
