@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+    /* Styles for tablets and mobile devices */
+    .your-class {
+        font-size: 14px;
+        padding: 10px;
+        /* Adjust other styles as needed */
+    }
+}/* Ensure all text inside #warning is red */
+#warning, 
+#warning * {
+    color: red !important;
+}

@@ -1,0 +1,351 @@
+
+/* Footer Styles */
+
+
+footer {
+    background: linear-gradient(to right, #003366, #004d99); /* Dark gradient for depth */
+    color: white;
+    font-family: 'Arial', sans-serif;
+  
+  padding: 50px 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row; /* Ensure sections are in a row */
+    justify-content: space-between; /* Distribute space between sections */
+    gap: 30px; /* Add space between the sections */
+    align-items: flex-start; /* Align items at the top */
+    flex-wrap: nowrap; /* Prevent wrapping on large screens */
+}
+
+.footer-section {
+    flex: 1; /* Make each section take equal width */
+    min-width: 280px; /* Ensure sections do not get too narrow */
+    text-align: center;
+}
+
+.footer-section h3, .footer-section h4 {
+    color: #f0b400; /* Gold color for headings */
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.footer-section p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 12px;
+}
+
+.footer-section a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+    color: #f0b400;
+}
+
+.footer-section .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-section .social-links li a {
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.footer-section .social-links li a:hover {
+    color: #f0b400;
+}
+
+/* Icon Styling (Font Awesome icons) */
+.fab {
+    font-size: 24px;
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+    background-color: #00274d;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    margin-top: 30px;
+    border-top: 2px solid #f0b400;
+}
+
+.footer-bottom p {
+    color: #f0b400;
+}
+
+/* Responsive Design for Footer */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column; /* Stack the sections vertically on small screens */
+        align-items: center;
+    }
+
+    .footer-section {
+        min-width: 100%; /* Each section takes full width */
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .footer-section h3, .footer-section h4 {
+        font-size: 1.5em;
+    }
+}
+
+
+
+
+
+ #overview {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f9f9f9; /* Light gray background */
+    border: 1px solid #d1d1d1; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+}
+
+#overview h3 {
+    color: #004080; /* Blue color for subheadings */
+}
+
+#overview ul {
+    margin-left: 20px;
+    list-style: disc;
+}
+
+#overview li {
+    margin-bottom: 5px;
+}
+ #technical-analysis {
+    margin-top: 20px;
+    padding: 20px;
+    background: linear-gradient(to right, #cce7ff, #b3e0ff); /* Soft blue gradient */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+#technical-analysis h3 {
+    color: #004080; /* Dark blue color */
+    margin-top: 15px;
+}
+
+#technical-analysis ul {
+    margin-left: 20px;
+    list-style: disc;
+}
+
+#technical-analysis li {
+    margin-bottom: 5px;
+}
+
+#technical-analysis img {
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for images */
+}
+#fundamental-analysis {
+    margin-top: 20px;
+    padding: 20px;
+    background: #eaf2f8; /* Light blue background */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+#fundamental-analysis h3 {
+    color: #004080; /* Dark blue for subheadings */
+    margin-top: 15px;
+}
+
+#fundamental-analysis ul {
+    margin-left: 20px;
+    list-style: disc;
+}
+
+#fundamental-analysis li {
+    margin-bottom: 5px;
+}
+ #sentiment-analysis {
+    margin-top: 20px;
+    padding: 20px;
+    background: #fff9e6; /* Warm light yellow background */
+    border: 1px solid #e5c29f; /* Subtle border with a light brown tone */
+    border-radius: 8px;
+}
+
+#sentiment-analysis h3 {
+    color: #e67400; /* Orange color for subheadings */
+    margin-top: 15px;
+}
+
+#sentiment-analysis ul {
+    margin-left: 20px;
+    list-style: disc;
+}
+
+#sentiment-analysis li {
+    margin-bottom: 5px;
+}}
+
+
+
+body{margin-top:60px;
+font-family: 'Arial',sans-serif;}
+.top-bar{background-color:#333;
+
+
+    padding: 8px 0;
+    color: white;
+    font-size: 14px;
+
+}
+
+
+
+.forex-time {
+    display: flex;
+    justify-content: center;
+}
+
+
+.header {
+    
+    top: 0;
+    width: 100%;
+    background-color: #003366;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.logo h1 {
+    font-size: 2.5em;
+    color: #f0b400;
+    font-weight: bold;
+}
+
+.logo h1 a {
+    text-decoration: none;
+    color: #f0b400;
+}
+.nav-bar {
+    display: flex;
+    gap: 30px;
+}
+
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+
+
+.nav-links li {
+    position: relative;
+}
+
+
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+
+.nav-links a:hover {
+    color: #f0b400;
+    text-decoration: underline;
+}
+
+
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+
+
+.hamburger-menu i {
+    font-size: 2.2em;
+    color: white;
+}
+
+
+body.scroll .header {
+    background-color: #00274d;
+}
+
+
+@media (max-width: 768px) {
+    .nav-bar {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+  .nav-links {
+        display: flex;
+        flex-direction: column;
+        background-color: #003366;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        padding: 20px;
+        gap: 15px;
+        display: none;
+    }
+
+
+     .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links a {
+        font-size: 1.5em;
+        padding: 12px;
+        text-align: center;
+    }
+
+
+@media (max-width: 768px) {
+    /* Styles for tablets and mobile devices */
+    .your-class {
+        font-size: 14px;
+        padding: 10px;
+        /* Adjust other styles as needed */
+    }
+}
