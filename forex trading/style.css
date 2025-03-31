@@ -632,3 +632,25 @@ td, th {
     white-space: nowrap;
   }
 }
+.container {
+  width: 100%;
+  max-width: 1200px; /* Adjust based on your design */
+  margin: 0 auto;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.sections {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.section {
+  flex: 1;
+  min-width: 300px; /* Adjust to fit smaller screens */
+}
+.sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
