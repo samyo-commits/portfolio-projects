@@ -97,9 +97,10 @@ font-family: 'Arial',sans-serif;}
 
 
 .hamburger-menu {
-    display:flex;
-    flex-direction: column;
+
+display: block;
     cursor: pointer;
+
 }
 
 .hamburger-menu i {
@@ -541,5 +542,31 @@ button:hover {
         font-size: 14px;
         padding: 10px;
         /* Adjust other styles as needed */
+    }
+}
+@media (max-width: 768px) {
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        width: 100%;
+    }
+
+    .hamburger-menu {
+        display: block;
+        cursor: pointer;
     }
 }
